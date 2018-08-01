@@ -135,6 +135,7 @@ class FloatingActionItem extends Component {
       components.push(render({ key: name }));
     } else {
       components.push(this.renderButton());
+      components.push(this.renderText());
     }
 
     return (
@@ -220,6 +221,9 @@ const styles = StyleSheet.create({
     marginTop: 8
   },
   leftTextContainer: {
+    marginLeft: 14
+  },
+  cnterTextContainer: {
     marginLeft: 14
   },
   rightTextContainer: {

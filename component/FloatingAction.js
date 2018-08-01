@@ -484,7 +484,7 @@ const styles = StyleSheet.create({
     zIndex: 2,
     width: ACTION_BUTTON_SIZE,
     height: ACTION_BUTTON_SIZE,
-    borderRadius: 28,
+    borderRadius: ACTION_BUTTON_SIZE / 2,
     alignItems: 'center',
     justifyContent: 'center',
     shadowOpacity: 0.35,
@@ -508,7 +508,7 @@ const styles = StyleSheet.create({
   rightButton: {},
   leftButton: {},
   centerButton: {
-    left: (DEVICE_WIDTH / 2) - 28
+    left: (DEVICE_WIDTH / 2) - (ACTION_BUTTON_SIZE / 2)
   },
   buttonTextContainer: {
     borderRadius: 28,
