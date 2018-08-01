@@ -223,7 +223,7 @@ const styles = StyleSheet.create({
   leftTextContainer: {
     marginLeft: 14
   },
-  cnterTextContainer: {
+  centerTextContainer: {
     marginLeft: 14
   },
   rightTextContainer: {
